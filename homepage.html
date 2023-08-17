@@ -1,0 +1,138 @@
+!DOCTYPE html>
+<html>
+<head>
+<title>Wonderpet</title>
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #808080;
+        }
+
+        .header {
+            background-color: #C0C0C0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navigation {
+            overflow: hidden;
+            background-color:#FFFFFF ;
+        }
+
+        .navigation a {
+            float: left;
+            display: block;
+            color: #808080;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navigation a:hover {
+            background-color: #ddd;
+            color:black;
+        }
+
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        .column.side1 {
+            width: 15%;
+            background-color: white;
+            margin-top: 10px;
+        }
+
+        .column.middle {
+            width: 60%;
+            background-color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .column.side2 {
+            width: 20%;
+            background-color: white;
+            margin-top: 10px;
+        }
+
+        .column.bottom {
+            width: 100%;
+            background-color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            background-color:  #C0C0C0;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+    </style>
+
+    <div class = "header">
+        <h1>Wonderpet</h1>
+        <P>Malaysia #1 pet shop</P>
+    </div>
+
+    <div class = "navigation">
+        <a href="homepage.html"><b>Home</b></a>
+        <a href="cats.html"><b>Cat</b></a>
+        <a href="Dog.html"><b>Dog</b></a>
+    </div>
+
+    <div class = "row">
+        <div class = "column side1">
+            <h2>Pet Festival</h2>
+            <p>Come and join us in a pet festival at the Setapak Mall this Sunday.</p>
+            <img src="images/petfestival.jpeg" width="90%">
+        </div>
+
+        <div class = "column middle">
+            <h2>Our Philosophy</h2>
+            <p>We are responsible for taking care of precious lives. That is why we keep three promises and commitments for making sure our guests and customers would feel joy of welcoming new family members.
+            </p>
+            <img src="images/our_philosophy.jpg" width="100%">
+        </div>
+
+        <div class = "column side2">
+            <h2>Come to our shop now to adopt these cuties</h2>
+            <p> Batu 8, Jalan Gombak, Gombak Utara, 53100 Kuala Lumpur, Selangor</p>
+            <img src="images/petshop.jpeg" width="100%">
+        </div>
+
+        <div class = "column bottom">
+            <h2>About Us</h2>
+            <p>Wonderpet is the biggest chain store of pet shop. Wonderpet group runs more than 220 stores in Japan, China, and Malaysia, and hand over more than 50 thousand pets to a new home every year.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>Contact Us</h3>
+        <p><b>instagram - Wonder_pet</b></p>
+        <p><b>gmail - wonderpet@gmail.com</b></p>
+        <p><b>whatsapp - 01765241651</b></p>
+    </div>
+
+</body>
+</html>

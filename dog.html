@@ -1,0 +1,133 @@
+!DOCTYPE html>
+<html>
+<head>
+<title>Wonderpet</title>
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #808080;
+        }
+
+        .header {
+            background-color: #C0C0C0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navigation {
+            overflow: hidden;
+            background-color:#FFFFFF ;
+        }
+
+        .navigation a {
+            float: left;
+            display: block;
+            color: #808080;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navigation a:hover {
+            background-color: #ddd;
+            color:black;
+        }
+
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        .column.side1 {
+            width: 15%;
+            background-color: white;
+            margin-top: 10px;
+        }
+
+        .column.middle {
+            width: 60%;
+            background-color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .column.side2 {
+            width: 20%;
+            background-color: white;
+            margin-top: 10px;
+        }
+
+        .column.bottom {
+            width: 100%;
+            background-color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            background-color:  #C0C0C0;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+    </style>
+
+    <div class = "header">
+        <h1>Dog</h1>
+        <P>Malaysia #1 pet shop</P>
+    </div>
+
+    <div class = "navigation">
+        <a href="homepage.html"><b>Home</b></a>
+        <a href="cats.html"><b>Cat</b></a>
+        <a href="dog.html"><b>Dog</b></a>
+    </div>
+
+    <div class = "row">
+        <div class = "column side1">
+            <h2>Wetpud</h2>
+            <p>You can also buy famous dog food in our stores.</p>
+            <img src="images/dogfood.jpeg" width="90%">
+        </div>
+
+        <div class = "column middle">
+            <h2>New faces</h2>
+            <p>Please adopt us!!</p>
+            <img src="images/dogpicture.jpg" width="100%">
+        </div>
+
+        <div class = "column side2">
+            <h2>Tips for new dog owner</h2>
+            <p> You can go to our instagram page and watch a video about tips for adopting a new dog there</p>
+        </div>
+
+        <div class = "column bottom">
+            <h2>About Us</h2>
+            <p>Wonderpet is the biggest chain store of pet shop. Wonderpet group runs more than 220 stores in Japan, China, and Malaysia, and hand over more than 50 thousand pets to a new home every year.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>Contact Us</h3>
+        <p><b>instagram - Wonder_pet</b></p>
+        <p><b>gmail - wonderpet@gmail.com</b></p>
+        <p><b>whatsapp - 01765241651</b></p>
+    </div>
